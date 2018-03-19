@@ -1,0 +1,42 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+  
+    <title>Create User</title>
+ 
+<body>
+ <h1>Create User</h1>
+ <hr>
+ <form action="index.html" method="get" enctype="application/x-www-form-urlencoded" >
+    <label for="nameid">Name:</label>
+    <input type="text" name="name" placeholder="name" id="nameid">
+    <form>
+        <select name="countries">
+          <option value="Deadpool">Deadpool</option>
+          <option value="Batman_vs_Superman">Batman v Superman</option>
+          <option value="civil_war">Captain America: Civil War</option>
+          <option value="doctor_strange">Doctor Strange</option>
+          <option value="Suicide_Squad">Suicide Squad</option>
+          <option value="Apocalypse">X-Men: Apocalypse</option>
+          <option value="gotg_vol2">Guardians of the Galaxy Vol 2</option>
+          <option value="Justice_League">Justice League</option>
+          <option value="logan">Logan</option>
+          <option value="Homecoming">Spider-Man: Homecoming</option>
+          <option value=" Wonder_Woman" selected> Wonder Woman</option>
+          <option value="Thor_Ragnarok">Thor: Ragnarok</option>
+          <option value="Black_Panther">Black Panther</option>
+        </select>
+        <textarea name="about">Write the Bio Here</textarea>
+        
+      </form>
+      <form action="upload.php" method="post" >
+        <label for="name"><input type="file" name="filename" id="name"/></label>
+        </form>
+        <form>
+            <button value="clear" name="clear">Clear Form</button>
+          </form>
+          <form>
+            <button value="create" name="create-user">Add new User</button>
+          </form>
+</body>
+</html>
